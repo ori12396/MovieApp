@@ -1,0 +1,109 @@
+.Movie-Card {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    width: 350px;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+  }
+  
+  .movie-cover {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .overlay {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hovered .movie-cover {
+    transform: scale(1.1);
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    opacity: 0;
+    transition: height 0.3s, opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hovered .overlay {
+    height: 30%;
+    opacity: 1;
+  }
+  
+  .buy-button,
+  .favorite-button {
+    margin-top: 0.5rem;
+    
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-button:hover,
+  .favorite-button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  .buy-button svg,
+  .favorite-button svg {
+    margin-right: 0.5rem;
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+.overview-link {
+  color: rgb(240, 236, 236);
+  margin-top: 35px;
+  font-family: david; /* Add the desired font family */
+}
+.movie-title {
+  margin-bottom: 10px;
+}
+  .overview-link {
+    color: rgb(240, 236, 236);
+    margin-top: 35px;
+  }
+  
+  .tocenter{
+    text-align: center;
+    justify-content: center;
+    text-decoration:underline;
+  }
+
+  
+  a:link { text-decoration: none; }
+
+
+
+  

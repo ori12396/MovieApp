@@ -1,0 +1,193 @@
+.hero {
+  min-height: 700px;
+  background-position: top center;
+  background-size: cover;
+  
+  display: flex;
+  align-items: flex-end;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.hero-title {
+  font-size: 60px;
+  margin: 0;
+}
+
+.button {
+  background-color:#0f1014 ;
+  color: white;
+  border: 1px solid white;
+  outline: none;
+  padding: 10px  15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2c2c2c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero-content {
+  max-width: 70%;
+  padding-bottom: 50px;
+}
+
+.icon-18plus {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 50%;
+  color: goldenrod; 
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  outline-width: 10px;
+  border: 6px solid goldenrod;
+}
+
+.icon-18plus::before {
+  content: '18';
+}
+
+.icon-18plus::after {
+  content: '+';
+}
+
+.icon-18plus:hover {
+  background-color: #000000;
+  color: goldenrod; 
+  border-width: 12px; 
+  width: 70px;
+  height: 70px;
+  border-color: goldenrod; 
+}
+
+.icon-18plus:hover::before,
+.icon-18plus:hover::after {
+  color: goldenrod; 
+}
+
+.icon-nonadult {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+.icon-nonadult:hover {
+  background-color: #000000;
+  border-width: 6px; 
+  width: 60px;
+  height: 60px;
+  border-color: #000000;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f1014;
+  margin-top: 20px;
+}
+
+.movie-details {
+  margin-left: 20px;
+  color: white;
+}
+
+.rest-of-the-page {
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+  background-color: #0f1014;
+  color: white;
+  position: relative; 
+  min-height: 40vh;
+}
+.young{
+  display: inline-block;
+  background-color: #000000;
+}
+
+.top{
+  position: 0;
+}
+.ticketIcon{
+  margin-top: 10px;
+}
+
+.overview {
+  border: 1px solid black;
+  text-align: center;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.child {
+  flex: 1;
+}
+
+.child-buy-now {
+  display: flex;
+  justify-content: center;
+}
+.child-no-tickets {
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  text-align: right;
+}
+.buy-now-button {
+  margin-top: 0.5rem;
+  
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.buy-now-button:hover{
+  background-color: #0056b3;
+}
+.expand-button {
+  width: 40px; 
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 auto; 
+}
+
+.expand-button .arrow {
+  width: 20px;
+  height: 20px;
+  border: solid white;
+  border-width: 4px 4px 0 0;
+  transform: rotate(-225deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.expand-button.collapsed .arrow {
+  transform: rotate(-405deg);
+}
+
+.cursor{
+  cursor: pointer;
+}
