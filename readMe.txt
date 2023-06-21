@@ -13,3 +13,7 @@ You can also read an extended overview of each movie by either pressing the shri
 I created all styling with css without using any bootstrap or etc but only for the logo's.
 
 I hope you will enjoy using  it  !!!
+--------------------------------------------------------
+
+THIS IS A FULL FRONTEND PROJECT (as i asked for ) .
+For fast watch it without download you can visit this demo link :https://movies-app-tau-jet.vercel.app/
